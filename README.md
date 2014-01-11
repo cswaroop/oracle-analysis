@@ -1,6 +1,6 @@
-# cpg-analysis
+# oracle-analysis
 
-FIXME: description
+A small clojure program shell to connect oracle database
 
 ## Installation
 
