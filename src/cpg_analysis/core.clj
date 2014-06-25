@@ -3,9 +3,9 @@
 
 (def db {:classname "oracle.jdbc.OracleDriver"
          :subprotocol "oracle"
-         :subname "thin:@192.168.1.51:1521/AGS8XQA"
-         :user "GRAINCORP_APP_7072"
-         :password "GRAINCORP_APP_7072"
+         :subname "thin:@preslsdb.cfaogwijsjn3.us-east-1.rds.amazonaws.com:1521/PRESLSDB"
+         :user "AGS_DEMO_APP_8012"
+         :password "AGS_DEMO_APP_8012"
                })
 (defn -main
   ""

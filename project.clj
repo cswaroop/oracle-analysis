@@ -5,8 +5,8 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [org.clojure/java.jdbc "0.3.2"]
-                 [local/ojdbc6 "11.2.0.4"]
                  ]
+  :resource-paths ["lib/ojdbc6.jar"]
   :main ^:skip-aot cpg-analysis.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
